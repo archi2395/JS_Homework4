@@ -5,13 +5,13 @@ let currentYear = new Date().getFullYear();
 let age = currentYear - birthYear;
 let cityMessage;
 switch (city.toLowerCase()) {
-    case "Kyiv":
+    case "kyiv":
         cityMessage = "You live in the capital of Ukraine";
         break;
-    case "Washington":
+    case "washington":
         cityMessage = "You live in the capital of USA";
          break;
-    case "London":
+    case "london":
         cityMessage = "You live in the capital of UK";
         break;
     default:
